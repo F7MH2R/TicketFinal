@@ -1,9 +1,21 @@
 # TicketFinal
 Web activa
 
-Integrantes:
-Fernando Heriberto Musto Ramirez
-Carlos Leonel Castaneda Hernandez
-Laura Lorena Medina Montero
-Adela Maria Castro Guzman
-Ivonne Esmeralda Duran Diaz
+Este proyecto fue desarrollado por el siguiente equipo:
+
+- Fernando Heriberto Musto Ramirez  
+  Encargado de la integración y pruebas del sistema.
+
+- Carlos Leonel Castaneda Hernandez  
+  Desarrollador principal de la interfaz de usuario.
+
+- Laura Lorena Medina Montero  
+  Responsable del diseño de la base de datos y modelado.
+
+- Adela Maria Castro Guzman  
+  Coordinadora del proyecto y comunicación.
+
+- Ivonne Esmeralda Duran Diaz  
+  Encargada de la documentación y soporte.
+
+## Descripción del Proyecto
