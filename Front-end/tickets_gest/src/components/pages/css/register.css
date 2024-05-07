@@ -1,0 +1,43 @@
+/* CSS para el efecto de transición suave */
+.fade {
+  transition: all 0.5s ease-in-out; /* Transición suave para todos los cambios */
+  opacity: 0; /* Inicia con opacidad 0 para el efecto de desvanecimiento */
+}
+
+/* Se desvanece cuando el fade se elimina */
+body {
+  opacity: 1; /* Se utiliza para mostrar el cuerpo después del desvanecimiento */
+}
+
+/* Estilos personalizados para el card y otros elementos */
+.cascading-right {
+  background: hsla(0, 0%, 100%, 0.5); /* Fondo semitransparente */
+  backdrop-filter: blur(30px); /* Aplicar desenfoque para el fondo */
+}
+
+.mdb-card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* Sombra sutil para el card */
+  transition: box-shadow 0.3s ease-in-out; /* Suaviza la transición de la sombra */
+}
+
+.mdb-card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2); /* Mayor sombra al pasar el ratón */
+}
+
+.mdb-btn {
+  transition: background-color 0.3s ease-in-out; /* Transición suave para el color del botón */
+}
+
+.mdb-btn:hover {
+  background-color: #1266f1; /* Color cuando se pasa el ratón por encima del botón */
+}
+
+/* Estilos para el input */
+.mdb-input {
+  transition: all 0.3s ease-in-out; /* Transición suave para cambios en los inputs */
+}
+
+.mdb-input:focus {
+  border-color: #1266f1; /* Color del borde al hacer foco */
+  box-shadow: 0 0 10px rgba(18, 102, 241, 0.3); /* Sombra al hacer foco */
+}
